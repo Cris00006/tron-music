@@ -1,0 +1,48 @@
+
+tron/
+|
+|-backend/
+| |-app
+ |-main.py ---> API entry point
+ |-config.py
+ |-database.py
+|
+	|-models/
+	 |-init.py
+	 |-user.py
+	 |-snnipet.py
+	|-routes/
+	 |init.py
+	 |ping.py
+	 |songs.py
+	|core/
+	 |-settings.py
+|   |-controllers/
+ -health_controller.py ---> business logic
+|   |-models/
+ |-files.py ----> Data models do not yet exist (more on this later)
+|   |utils/
+ |-helpers (more on this later)
+  |-tests/
+  |package.json
+  |README.md
+|
+|-fronted/
+| (vacío por ahora, aquí ira el Flutter)
+|
+|-database/
+| |-tron_music.sql
+| |-migrations/
+|
+|-docs/
+ |-architecture.md
+ |-sprints.md
+ |-notes.md
+
+Pending files
+
+* tron_music.sql 
+* architecture.md
+* sprints.md
+* notes.md
+

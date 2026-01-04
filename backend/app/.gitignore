@@ -1,0 +1,41 @@
+# ---Python ---
+--pycache--/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+
+# Virtual environment
+ven/
+.env/
+.envs/
+
+# ---FastApi / Python---
+.log
+
+# ---Node / Fronted---
+
+node_modules/
+dist/
+build/
+
+# ---Flutter---
+.flutter-plugiins
+.flutter-plugiins-dependencies
+.dart_tool/
+build/
+
+# ---IDEs---
+.vscode/
+.idea/
+
+# ---OS---
+.DS_Store
+Thumb.db
+
+# ---Secrets---
+settings_local.py
+*.key
+*.pem
+
